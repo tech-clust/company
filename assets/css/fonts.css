@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Blinker';
+    src: local('Blinker Bold'), local('Blinker-Bold'),
+        url('../fonts/Blinker-Bold.woff2') format('woff2'),
+        url('../fonts/Blinker-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/Mulish-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Mulish-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Mulish-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-style: normal;
+    src: url('../fonts/Mulish-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-weight: 900;
+    font-style: normal;
+    src: url('../fonts/Mulish-Black.ttf') format('truetype');
+}
+

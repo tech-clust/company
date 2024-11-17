@@ -1,0 +1,92 @@
+.header {
+    margin-top: 23px;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header__logo img {
+    max-width: 36px;
+    width: 100%;
+}
+
+.header__logo-text {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    letter-spacing: -2px;
+}
+
+.header__nav-list {
+    display: flex;
+    list-style: none;
+    gap: 41px;
+}
+
+.header__nav-list li a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--gray-color);
+    transition: all .3s ease;
+}
+
+.header__nav-list li a:hover {
+    color: var(--pink-color);
+}
+
+.header__burger-menu {
+    position: relative;
+    width: 62px;
+    height: 26px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+
+.header__burger-menu span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--light-gray-color);
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.header__burger-menu span:nth-child(2) {
+    top: 11px;
+    left: unset;
+    right: 0;
+    width: 74%;
+}
+
+.header__burger-menu span:nth-child(3) {
+    top: 22px;
+    left: unset;
+    right: 0;
+    width: 54%;
+}
+
+.header__burger-menu:hover span {
+   background-color: var(--pink-color);
+}
+
+.header__burger-menu:hover span:nth-child(2) {
+    transform: translateX(-32%);
+}
+
+.header__burger-menu:hover span:nth-child(3) {
+    transform: translateX(-82%);
+}
