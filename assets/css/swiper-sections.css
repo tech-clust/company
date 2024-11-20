@@ -1,0 +1,81 @@
+.swiper__sections-wrapper {
+    margin-top: 20px;
+}
+
+.swiper {
+    height: 88vh;
+    border-radius: 32px 32px 32px 0;
+}
+
+.swiper-slide:nth-child(1) {
+    background-color: #000;
+}
+
+.swiper-pagination-bullet {
+    margin: 7px !important;
+    width: 13px;
+    height: 13px;
+    transition: all .2s ease-in-out !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.swiper-pagination-bullet-active {
+    width: 23px !important;
+    height: 23px !important;
+}
+
+.swiper-pagination-bullet:nth-child(1) {
+    background: var(--blue-color);
+    width: 19px;
+    height: 19px;
+}
+
+.swiper-pagination-bullet:nth-child(2) {
+    background: var(--yellow-color);
+}
+
+.swiper-pagination-bullet:nth-child(3) {
+    background: var(--pink-color);
+}
+
+.swiper-pagination-bullet:nth-child(4) {
+    background: var(--green-color);
+}
+
+.slide__back-line {
+    position: fixed;
+    bottom: 12px;
+    right: 20px;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+    top: calc(42% - 50px);
+    right: var(--swiper-pagination-right, 3px); 
+}
+
+/* css заглушки для красивого 
+отображения текста на след.слайдах 
+(будут удалены при разраюотке) */
+.swiper-slide:not(:first-child) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide:nth-child(2) {
+    background: var(--yellow-color);
+}
+
+.swiper-slide:nth-child(3) {
+    background: var(--pink-color);
+}
+
+.swiper-slide:nth-child(4) {
+    background: var(--green-color);
+}

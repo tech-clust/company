@@ -1,3 +1,7 @@
+@import url(libs/swiper.min.css);
 @import url(fonts.css);
 @import url(default.css);
 @import url(header.css);
+@import url(swiper-sections.css);
+@import url(promo.css);
+@import url(menu.css);

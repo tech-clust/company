@@ -14,6 +14,7 @@
     --pink-color: #f83adc;
     --blue-color: #2873ff;
     --dark-blue-color: #000084;
+    --green-color: #19c48e;
 }
 
 a {
@@ -39,5 +40,15 @@ a {
 }
 
 .dark-blue__color {
-    color: var(--dark-blue-color)
+    color: var(--dark-blue-color);
 }
+
+.green__color {
+    color: var(--green-color);
+}
+
+.color__word {
+    letter-spacing: -8px;
+}
+
+body.scroll-hidden {overflow: hidden;}
